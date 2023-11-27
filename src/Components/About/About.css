@@ -1,0 +1,44 @@
+.testimonial{
+    background-image: url("../../Assets/images/teastmonial.jpg");
+}
+
+.cliieent_1{
+    position: absolute !important;
+    display: inline-block !important;
+}
+
+.client-review{
+    display: none !important;
+    position: absolute !important;
+    width: 25vw;
+}
+
+.cliieent_1:hover .client-review{
+    background-color: #fff !important;
+    border-radius: 30px;
+    padding: 10px;
+    z-index: 10000;
+    text-align: center;
+    display: block !important;
+    margin-left: -30px;
+}
+
+@media screen and (max-width: 700px) {
+    .client-review{
+        width: 43vw;
+    }
+
+    .cliieent_1:hover{
+        margin-left: 20px;
+    }
+}
+
+.list_Guide{
+    list-style-type:decimal;
+    margin-left: 2rem;
+
+}
+.list_Guide .subList_Guide li{
+    list-style-type:lower-roman !important;
+    margin-left: 3rem;
+}
