@@ -1,0 +1,43 @@
+
+
+.faq-menu{
+    background-image: url("../../Assets/images/faq-bg.png") !important;
+    font-family: "Comfortaa";
+}
+
+
+.accordion-header{
+    padding: 20px 10px !important;
+    border: none !important;
+    text-align: left !important ;
+    border-bottom: 1px solid grey !important;
+}
+
+
+.custom_made_Acc .accordion-header {
+    padding: 23px 31px !important;
+    text-align: start !important;
+}
+.accordion-item .accordion-button{
+    background-color: transparent !important;
+    color: #5949b3 !important;
+    font-weight: 600 !important;
+
+} 
+
+.accordion-item{
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.accordion-button:not(.collapsed){
+    color: #5949b3 !important;
+    font-weight: 600 !important; 
+}
+
+.accordion-body
+{
+    color: #5949b3 !important;
+
+}
